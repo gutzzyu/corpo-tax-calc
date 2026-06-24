@@ -1,11 +1,36 @@
-<div align="center">
+# Base44 Tax Calculator
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A professional Philippine tax calculator for income, estate, and stocks processing.
 
-  <h1>Built with AI Studio</h2>
+## Vercel Deployment
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+This project is configured for easy deployment on Vercel.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Prerequisites
 
-</div>
+- A Vercel account
+- [Vercel CLI](https://vercel.com/download) (for manual deployment)
+
+### Deployment Steps
+
+1. **GitHub/GitLab/Bitbucket Integration**: 
+   Push this project to a repository and link it to a Vercel project. Vercel will automatically detect the Vite configuration.
+2. **Environment Variables**:
+   Ensure you set `VITE_GEMINI_KEY` in your Vercel Project Settings if you wish to override the default key.
+3. **Routing**:
+   The `vercel.json` file is included to handle Single Page Application (SPA) routing transitions.
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+The output will be in the `dist/` folder.

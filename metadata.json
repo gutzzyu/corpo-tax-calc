@@ -1,0 +1,8 @@
+{
+  "name": "STALF | Property Tax Calculator",
+  "description": "A professional Philippine tax calculator for income, estate, and stocks processing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
